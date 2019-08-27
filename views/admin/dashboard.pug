@@ -1,0 +1,16 @@
+extends template/layout.pug
+
+block content
+ .m-content
+    .m-portlet.m-portlet--mobile
+      .m-portlet__head
+        .m-portlet__head-caption
+          .m-portlet__head-title
+            h3.m-portlet__head-text
+              | Dashboard
+      .m-portlet__body
+        .m_data_users
+
+block data_script
+  //- script(src='/admin/js/data-five-users.js' type='text/javascript')
+
